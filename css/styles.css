@@ -26,8 +26,9 @@ p, h2 {
 /* give the summit heading a different colour, targeting an id */
 #summit {
    color: navy;
-   
-}
+   }
+
+
 /* now write two rules targeting the same element type, with the second one having a different colour. */
 /* first paragraph colour */
 p {
@@ -38,4 +39,4 @@ p {
 p {
    color: purple;
 }
-/* because both of these paragraphs have the same specificity, the cascading rule asserts that the last rule written will be applied. so, the paragraphs will appear purple, not blue. /*
+/* because both of these paragraphs have the same specificity, the cascading rule asserts that the last rule written will be applied. so, the paragraphs will appear purple, not blue. */
