@@ -26,6 +26,7 @@ p, h2 {
 /* give the summit heading a different colour, targeting an id */
 #summit {
    color: navy;
+   
 }
 /* now write two rules targeting the same element type, with the second one having a different colour. */
 /* first paragraph colour */
