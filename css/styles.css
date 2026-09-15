@@ -1,7 +1,39 @@
 /* MTM1544 Week 1: your stylesheet.
    This file is already linked from index.html. Write your rules below.
    Start by changing the body background colour and saving, to confirm the link works. */
+   /* First step changing the background color to red */
 body {
    background-color: red;
 }
-
+/* To style all paragraphs */
+p {
+   color:blue;
+   line-height: 1.5;
+}
+/* now style all h2 headings */
+h2 {
+   color: green;
+}
+/* apply the same font to paragraphs and h2 headings. notice the commo applies the rule to both p and h2. */
+p, h2 {
+   font-family: Arial, sans-serif;
+}
+/* give the intro para a different colour. because the starter html already has an element with the intro class, this will change that paragraph.  */
+.intro {
+   color: purple;
+}
+/* give the summit heading a different colour, targeting an id */
+#summit {
+   color: orange;
+}
+/* now write two rules targeting the same element type, with the second one having a different colour. */
+/* first paragraph colour */
+p {
+   color: blue;
+   line-height: 1.5;
+}
+/*later paragraph colour overrides the first paragraph colour */
+p {
+   color: purple;
+}
+/* because both of these paragraphs have the same specificity, the cascading rule asserts that the last rule written will be applied. so, the paragraphs will appear purple, not blue. /*
