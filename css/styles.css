@@ -1,3 +1,6 @@
+*{
+   box-sizing: border-box;
+}
 /* MTM1544 Week 1: your stylesheet.
    This file is already linked from index.html. Write your rules below.
    Start by changing the body background colour and saving, to confirm the link works. */
@@ -40,3 +43,11 @@ p {
    color: purple;
 }
 /* because both of these paragraphs have the same specificity, the cascading rule asserts that the last rule written will be applied. so, the paragraphs will appear purple, not blue. */
+
+trail-section {
+   background-color:bisque;
+   border: 2px solid navy;
+   padding: 30px;
+   border-radius: 12px;
+   margin-bottom: 40px;
+}
