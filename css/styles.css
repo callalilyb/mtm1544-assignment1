@@ -44,7 +44,9 @@ p {
 }
 /* because both of these paragraphs have the same specificity, the cascading rule asserts that the last rule written will be applied. so, the paragraphs will appear purple, not blue. */
 
-trail-section {
+/* this is beginning week 2 and 3 mods with boxes. */
+
+.trail-section {
    background-color:bisque;
    border: 2px solid navy;
    padding: 30px;
