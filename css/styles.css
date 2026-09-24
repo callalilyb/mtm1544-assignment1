@@ -64,3 +64,14 @@ p {
  /* ok now i want to horizontally centre the box. i'm going to put that back up there with the rest of trail selection. */
 
 /* auto means that i'm distributing evently between the left and right margins with how much leftover horizontal space there is. 1000 minus 600 = 400px */
+
+.first-paragraph {
+   margin-bottom: 30px;
+}
+
+.second-paragraph {
+   margin-top: 20px;
+}
+
+/* here i have added the margins between my paragraphs labelled first and second. they are not equal because I'm predicting a margin collapse. the gap should be 30px because it is the larger of the two. */
+
