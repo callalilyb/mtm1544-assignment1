@@ -53,4 +53,14 @@ p {
    border-radius: 12px;
    margin-bottom: 40px;
    width: 600px;
+   margin-left: auto;
+   margin-right: auto;
 }
+/* padding 30px is the space between the content and the border.
+600px is the width of the section that i will check with dev tools.
+2px border + 30px padding + 536px content + 30px padding + 2px border = 600px CONFIRMED! :) 40px margin also confirmed w dev tool.
+ */
+
+ /* ok now i want to horizontally centre the box. i'm going to put that back up there with the rest of trail selection. */
+
+/* auto means that i'm distributing evently between the left and right margins with how much leftover horizontal space there is. 1000 minus 600 = 400px */
