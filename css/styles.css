@@ -75,3 +75,5 @@ p {
 
 /* here i have added the margins between my paragraphs labelled first and second. they are not equal because I'm predicting a margin collapse. the gap should be 30px because it is the larger of the two. */
 
+/* confirmed 30 px on dev tools for first-paragraph */
+/* second paragraph margin top 20px confirmed on dev tools. */
