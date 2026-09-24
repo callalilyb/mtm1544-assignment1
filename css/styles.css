@@ -77,3 +77,11 @@ p {
 
 /* confirmed 30 px on dev tools for first-paragraph */
 /* second paragraph margin top 20px confirmed on dev tools. */
+
+.media-placeholder {
+   width: 100%
+   aspect-ratio: 16/9;
+}
+
+/* width 100 percent means that the pic will fill its containing element. aspect ratio 16 19 tells the btroswer the proportion of the rectancle. 16 units wide, 9 units tall. */
+
