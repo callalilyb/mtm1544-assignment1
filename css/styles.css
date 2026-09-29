@@ -79,7 +79,7 @@ p {
 /* second paragraph margin top 20px confirmed on dev tools. */
 
 .media-placeholder {
-   width: 100%
+   width: 100%;
    aspect-ratio: 16/9;
 }
 
