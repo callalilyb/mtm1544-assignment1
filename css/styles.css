@@ -157,7 +157,19 @@ p {
 /* contrast check: para text on body background = 5.06:1. passes 4.5:1 requirement. */
 
 .trail-section {
-   background-color: hsl(30 46% 65%);
+   background-color: hsl(30 46% 50%);
 }
 
+.trail-section p{
+   color: hsl(30 46% 10%);
+}
+
+/* contrast check: para text on trail-section background = 4.59:1 passes webaim requirement */
+/* had to add another darker colour where needed inside the text box because nothing else was passing. */
+
+.trail-section h2 {
+   color: hsl(30 46% 10%);
+}
+
+/* contrast check: h2 text on trail-section background = 4.59:1 passes webaim requirement */
 
