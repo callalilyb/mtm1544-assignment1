@@ -179,17 +179,33 @@ p {
    color: hsl(30 46% 20%)
 }
 
-#summit (
+#summit {
    color: hsl(30 46% 20%);
-)
+}
 
 /* moving on to OKLCH */
 
 /* =====OKLCH PALETTE====== */
-/* Step 1 lightest */
-oklch(0.3426 0.0497 64.84)
-oklch(0.5002 0.0784 64.32)
-oklch(0.646 0.1045 64.06)
-oklch(0.7518 0.0734 66.32)
+/* Step 1 darkest */
+.oklch-step-1 {
+   color: oklch(0.3426 0.0497 64.84);
+}
+/* step 2 */
+.oklch-step-2 {
+   color: oklch(0.5002 0.0784 64.32);
+}
+/* step 3 */
+.oklch-step-3 {
+   color: oklch(0.646 0.1045 64.06);
+}
+/* step 4 lightest */
+.oklch-step-4 {
+   color: oklch(0.7518 0.0734 66.32);
+}
+
+
+/* comparing HSL vs. OKLCH, at first i see absolutely no difference. then i closely look in between each of the colours in both palettes (1-2, 2-3, etc.) and I think that the OKLCH colours appear more evenly spaced, contrasted? */
+
+/* next instruction: give one interactive colour a hover state built with color-mix from its base colour */
 
 
