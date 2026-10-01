@@ -198,19 +198,21 @@ body::before {
    content: "";
    display: block;
    height: 50px;
-   background: linear-gradient (
+   margin-bottom: 20px;
+   background: linear-gradient(
       to right,
       hsl(30 46% 20%),
       hsl(30 46% 35%),
       hsl(30 46% 50%),
       hsl(30 46% 65%)
    );
-   }
+}
 
-   body::after {
+body::after {
    content: "";
    display: block;
    height: 50px;
+   margin-top: 20px;
    background: linear-gradient(
       to right,
       oklch(0.3426 0.0497 64.84),
