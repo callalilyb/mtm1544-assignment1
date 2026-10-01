@@ -109,4 +109,12 @@ h1 {
    text-wrap: balance;
 }
 
+/* 1rem is approximately 16 pixels and 2.5 rem is approximately 40 pixels. this means the title is larger than body text. */
 
+h2 {
+   font-size: 1.75rem;
+   line-height: 1.2;
+   text-wrap: balance;
+}
+
+/* this is establishing a hierarchy from h1 to body, larger text to smaller text */
