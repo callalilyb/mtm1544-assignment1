@@ -208,4 +208,12 @@ p {
 
 /* next instruction: give one interactive colour a hover state built with color-mix from its base colour */
 
+a {
+   color: hsl(30 46% 20%);
+}
 
+a:hover {
+   color: color-mix(in srgb, hsl(30 46% 20%), white 20%);
+}
+
+/* taking my brown base colour and mixing it with white for the hover state */
