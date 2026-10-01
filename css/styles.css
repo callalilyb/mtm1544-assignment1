@@ -176,7 +176,7 @@ p {
 /* now i am still seeing old styling from last assignment, so i want to fix that. e.g. purple text */
 
 .intro {
-   color: hsl(30 46% 20%)
+   color: hsl(30 46% 20%);
 }
 
 #summit {
@@ -204,16 +204,19 @@ p {
 }
 
 
-/* comparing HSL vs. OKLCH, at first i see absolutely no difference. then i closely look in between each of the colours in both palettes (1-2, 2-3, etc.) and I think that the OKLCH colours appear more evenly spaced, contrasted? */
-
+/* hsl okchl comparison: at first I really saw absolutely no difference. Then, i closely looked at the difference in between each colour (1-2, 2-3, etc) for each colour palette and i realized there is more difference between steps in the OKCHL palette. I think OKCHL is more evenly spaced. */
 /* next instruction: give one interactive colour a hover state built with color-mix from its base colour */
 
 a {
    color: hsl(30 46% 20%);
 }
 
+/* contrast check: normal link on body background = 5.06:1 passes 4.5:1 requirement */
 a:hover {
    color: color-mix(in srgb, hsl(30 46% 20%), white 20%);
 }
 
 /* taking my brown base colour and mixing it with white for the hover state */
+/* contrast check: hover link on body background = 6.58:1 passes 4.5:1 test */
+
+
