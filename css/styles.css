@@ -89,9 +89,17 @@ p {
 
 /* confirmed with dev tools that width is 600px. */
 /* confirmed with dev tools that margins are centered. left and right are both 88.5px */
-/* confirmed with dev tools that collapsed margins equal 50px. also confirmed width 100% and aspect ration 16/9. */
+/* confirmed with dev tools that collapsed margins equal 50px (20 + 30). also confirmed width 100% and aspect ration 16/9. */
 
 /* WEEK 2 ASSIGNMENT: BOX MODEDL CARD ABOVE - DUE SEPT 28  */
 /* WEEK 3 ASSIGNMENT: TYPOGRAPHY & COLOUR PALETTE BELOW - DUE SEPT 30 */
 /* THEN WEEK 4 ASSIGNMENT: SPECIFICITY IN PRACTICE - DUE OCT 5. */
+
+/* ===========WEEK 3 TYPOGRAPHY AND COLOUR PALETTE ==============*/
+
+body {
+   font-family: Arial, sans-serif;
+   font-size: 1rem;
+   line-height: 1.6;
+}
 
