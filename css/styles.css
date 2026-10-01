@@ -119,6 +119,30 @@ h2 {
    text-wrap: balance;
 }
 
+
+
 /* this is establishing a hierarchy from h1 to body, larger text to smaller text */
 
 /* i just added a google font called cherry soda to the head in my html in index.html */
+/* cherry cream soda font confirmed in dev tools. */
+
+/* creating a four step colour palette */
+
+h1 {
+   color: hsl(30 46% 20%);
+}
+
+h2 {
+   color: hsl(30 46% 35%);
+}
+
+body {
+   color: hsl(30 46% 65%);
+}
+
+.trail-section {
+   background-color: hsl(30 46% 50%);
+}
+
+/* h1 though down to body gets darkest brown to lightest brown, respectively */
+
