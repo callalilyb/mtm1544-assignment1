@@ -173,3 +173,13 @@ p {
 
 /* contrast check: h2 text on trail-section background = 4.59:1 passes webaim requirement */
 
+/* now i am still seeing old styling from last assignment, so i want to fix that. e.g. purple text */
+
+.intro {
+   color: hsl(30 46% 20%)
+}
+
+#summit (
+   color: hsl(30 46% 20%);
+)
+
