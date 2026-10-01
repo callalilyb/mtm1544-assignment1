@@ -183,3 +183,39 @@ p {
    color: hsl(30 46% 20%);
 )
 
+/* moving on to OKLCH */
+
+/* =====OKLCH PALETTE====== */
+/* Step 1 lightest */
+oklch(0.3426 0.0497 64.84)
+oklch(0.5002 0.0784 64.32)
+oklch(0.646 0.1045 64.06)
+oklch(0.7518 0.0734 66.32)
+
+/* temporary colour gradient */
+
+body::before {
+   content: "";
+   display: block;
+   height: 50px;
+   background: linear-gradient (
+      to right,
+      hsl(30 46% 20%),
+      hsl(30 46% 35%),
+      hsl(30 46% 50%),
+      hsl(30 46% 65%)
+   );
+   }
+
+   body::after {
+   content: "";
+   display: block;
+   height: 50px;
+   background: linear-gradient(
+      to right,
+      oklch(0.3426 0.0497 64.84),
+      oklch(0.5002 0.0784 64.32),
+      oklch(0.646 0.1045 64.06),
+      oklch(0.7518 0.0734 66.32)
+   );
+}
