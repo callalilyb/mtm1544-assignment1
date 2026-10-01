@@ -132,12 +132,16 @@ h1 {
    color: hsl(30 46% 20%);
 }
 
+/* contrast check: h1 text on body background = 5.06:1 passes requirement */
+
 h2 {
-   color: hsl(30 46% 35%);
+   color: hsl(30 46% 20%);
 }
 
+/* contrast check: h2 text on body background = 5.06:1 passes requirement */
+
 body {
-   color: hsl(30 46% 65%);
+   background-color: hsl(30 46% 65%);
 }
 
 .trail-section {
@@ -149,3 +153,11 @@ body {
 p {
    color: hsl(30 46% 20%);
 }
+
+/* contrast check: para text on body background = 5.06:1. passes 4.5:1 requirement. */
+
+.trail-section p {
+   background-color: hsl(30 46% 65%);
+}
+
+
