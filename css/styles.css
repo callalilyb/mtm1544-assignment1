@@ -233,3 +233,9 @@ li:first-child {
    font-weight: bold;
 }
 
+h2::before {
+   content: ". ";
+   color: hsl(30 46% 20%);
+}
+
+/* Week 4 specificity test. I predict the id will override all specificity. the id in this doc is #summit */
