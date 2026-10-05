@@ -253,3 +253,17 @@ h2 {
 }
 
 /* confirmed prediction in dev tools! #summit color: green is the only style i see not crossed out. */
+
+.specificity-red {
+   color: red;
+}
+.specificity-blue {
+   color: blue;
+}
+.specificity-green {
+   color: green;
+}
+
+/* green is last, so it should win and be the final colour. */
+/* my prediction: green will win because it is last in the list of specificities. */
+
