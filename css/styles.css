@@ -221,4 +221,8 @@ a:hover {
 
 /* ========WEEK 4 BELOW: SPECIFICITY IN PRACTICE DUE OCT. 5============= */
 
+a:focus {
+   outline: 3px solid hsl(30 46% 20%);
+}
+
 
