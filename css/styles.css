@@ -19,9 +19,11 @@ h2 {
    color: green;
 }
 /* apply the same font to paragraphs and h2 headings. the commaapplies the rule to both p and h2. */
-p, h2 {
+/* ====week 4 update: apply the same font to paras and h2 using :where(). */
+:where(p, h2) {
    font-family: Arial, sans-serif;
 }
+
 /* give the intro para a different colour. because the starter html already has an element with the intro class, this will change that paragraph.  */
 .intro {
    color: purple;
@@ -232,6 +234,8 @@ li:nth-child(odd) {
 li:first-child {
    font-weight: bold;
 }
+
+/* the . mark is visual, doesn't add any information to the heading. */
 
 h2::before {
    content: ". ";
