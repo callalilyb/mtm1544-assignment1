@@ -225,4 +225,8 @@ a:focus {
    outline: 3px solid hsl(30 46% 20%);
 }
 
+li:nth-child(odd) {
+   background-color: hsl(30 46% 50%);
+}
+
 
