@@ -239,3 +239,15 @@ h2::before {
 }
 
 /* Week 4 specificity test. I predict the id will override all specificity. the id in this doc is #summit */
+
+h2 {
+   color: red;
+}
+
+.specificity-test {
+   color: blue;
+}
+
+#sumit {
+   solor: green;
+}
