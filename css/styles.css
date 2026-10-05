@@ -240,18 +240,6 @@ h2::before {
 
 /* Week 4 specificity test. I predict the id will override all specificity. the id in this doc is #summit */
 
-h2 {
-   color: red;
-}
-
-.specificity-test {
-   color: blue;
-}
-
-#summit {
-   color: green;
-}
-
 /* confirmed prediction in dev tools! #summit color: green is the only style i see not crossed out. */
 
 .specificity-red {
@@ -266,4 +254,4 @@ h2 {
 
 /* green is last, so it should win and be the final colour. */
 /* my prediction: green will win because it is last in the list of specificities. */
-
+/* update: green one. since they all have the equal specificity, the last rule wins. */
