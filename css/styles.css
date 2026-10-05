@@ -229,4 +229,6 @@ li:nth-child(odd) {
    background-color: hsl(30 46% 50%);
 }
 
-
+li:first-child {
+   font-weight: bold;
+}
